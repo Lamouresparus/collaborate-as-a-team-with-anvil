@@ -1,4 +1,16 @@
 allow_embedding: false
+db_schema:
+  person:
+    client: search
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: Name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: Age
+      type: number
+    server: full
+    title: Person
 dependencies: []
 name: Collaborate with Anvil Prod
 package_name: Collaborate_with_Anvil_Prod
